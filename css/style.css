@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredik';
+    /* border: 1px solid rgb(8, 8, 8); */
+}
+@font-face {
+    font-family: Fredik;
+    src: url(../Fonts/Fredoka/Fredoka-VariableFont_wdth\,wght.ttf);
+}
+ul{
+    margin-right: 5%;
+}
+ul li{
+    padding-left: 0.9rem;
+
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image:url(../img/hero_bg.jpg);
+    background-size: cover;
+    
+}
+.content{
+    position: relative;
+    top: 10rem;
+
+}
+.fight{
+    position:absolute;
+    right: 0px;
+}
+.fight h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+.text-prim {
+    font-weight: 700;
+    color: #b49c73!important;
+}
+.mt-4{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);  
+    width: 80%;
+}
+.intro-desk{
+    color: #b49c73;
+    border-bottom: 1px solid #b49c73;
+}
+
+.btn-secondary{
+    padding: 18px 27px !important;
+    border-radius: 30px !important;
+    background-color: #b49c73!important;
+    border-color: #b49c73!important;
+    font-weight: 500!important;
+    letter-spacing: 0.5px !important;
+
+   
+}
