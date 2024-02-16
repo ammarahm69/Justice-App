@@ -75,7 +75,7 @@ ul li{
 .main-practice{
     /* display: flex; */
     width: 100%;
-    height: 700px;
+    height: auto;
     background-color: #212529;
     padding-top: 4rem;
     color: #fff;
@@ -131,4 +131,29 @@ ul li{
 .d-block{
     color: #b2b2b8;
     font-size: 15px;
+}
+.cases h1{
+    font-size: 50px;
+    font-weight: 200;
+    letter-spacing: 2px;
+
+}
+.cases .year{
+    color: #b49c73;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.awards-sec h1{
+    font-size: 60px;
+}
+.awards-sec .ninty{
+    color: #b49c73;
+}
+.awards-sec .strong{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.awards-sec p{
+    color: #b2b2b8;
 }
