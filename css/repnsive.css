@@ -1,0 +1,26 @@
+@media screen and (min-width:280px) and (max-width:350px) {
+    .fight h1{
+        font-size: 40px;
+    }
+    .mt-4{
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.5);  
+        width: 80%;
+    }
+    .text-prim {
+        font-size: 50px;
+        
+        font-weight: 700;
+        color: #b49c73!important;
+    }
+    .btn-secondary{
+        padding: 14px 23px !important;
+        border-radius: 30px !important;
+        background-color:#b49c73!important;
+        border-color: #b49c73!important;
+        font-weight: 500!important;
+        letter-spacing: 0.5px !important;
+        /* color: black !important; */
+       
+    }
+}
