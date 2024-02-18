@@ -68,7 +68,12 @@ ul li{
     font-weight: 500!important;
     letter-spacing: 0.5px !important;
     /* color: black !important; */
+    transition: all 0.4s ease;
    
+}
+.btn-secondary:hover{
+   
+    background-color:#212529!important;
 }
 
 /* PRACTICE SECTION */
@@ -152,8 +157,28 @@ ul li{
 .awards-sec .strong{
     color: #fff;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
 }
 .awards-sec p{
     color: #b2b2b8;
+}
+.main-happy{
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    background-color: #2d2d34;
+    
+}
+.happy-heading h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.card-text{
+    color:#212529;
+    margin-left: 6px;
+}
+.card-title img{
+    width: 20%;
+    border-radius: 100%;
 }

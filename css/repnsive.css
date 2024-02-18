@@ -1,4 +1,6 @@
-@media screen and (min-width:280px) and (max-width:350px) {
+
+
+@media screen and (min-width:280px) and (max-width:381px) {
     .fight h1{
         font-size: 40px;
     }
@@ -23,10 +25,26 @@
         /* color: black !important; */
        
     }
-    .cases h1{
+    .cases h1 {
+        font-size: 28px;
+    }
+    .practice-heading h1 {
+        font-size: 37px;
+    }
+    .awards-sec h1 {
         font-size: 40px;
     }
-    .practice-heading h1{
+    .happy-heading h1{
+        font-size: 33px;
+    }
+    .happy{
         font-size: 40px;
     }
+ @media screen and (min-width:280px) and (max-width:768px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+ }  
 }
+
