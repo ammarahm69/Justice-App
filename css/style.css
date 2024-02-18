@@ -166,7 +166,7 @@ ul li{
     width: 100%;
     height: auto;
     padding-top: 3rem;
-    background-color: #2d2d34;
+    background-color:#37373f;
     
 }
 .happy-heading h1{
@@ -181,4 +181,36 @@ ul li{
 .card-title img{
     width: 20%;
     border-radius: 100%;
+}
+.circle {
+    margin: 12px;
+    width: 25%;
+    border-radius: 100%;
+    height: 63px;
+    background-color: #b49c73;
+}
+.circle img{
+    position: absolute;
+    margin-top: 1.2rem;
+    left: 2rem;
+
+}
+.card-head{
+    color:#b49c73;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -15px;
+}
+.learn{
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.learn:hover{
+    color: #b49c73;
+}
+.learn i{
+    color: #212529;
 }
