@@ -1,187 +1,221 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fredik';
-    /* border: 1px solid red;   */
+    border: 1px solid red;
 }
+
 @font-face {
     font-family: Fredik;
     src: url(../Fonts/Fredoka/Fredoka-VariableFont_wdth\,wght.ttf);
 }
-ul{
+
+ul {
     margin-right: 5%;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-size: 40px !important;
     font-weight: 700 !important;
     letter-spacing: 2px !important;
 }
-.navbar-brand span{
+
+.navbar-brand span {
     color: #b49c73;
 }
-ul li{
+
+ul li {
     padding-left: 0.9rem;
     font-size: 19px;
 
 }
-.hero{
+
+.hero {
     height: 100vh;
     width: 100%;
-    background-image:url(../img/hero_bg.jpg);
+    background-image: url(../img/hero_bg.jpg);
     background-size: cover;
-    
+
 }
-.content{
+
+.content {
     position: relative;
     top: 10rem;
 
 }
-.fight{
-    position:absolute;
+
+.fight {
+    position: absolute;
     right: 0px;
 }
-.fight h1{
+
+.fight h1 {
     font-size: 60px;
     font-weight: 400;
 }
+
 .text-prim {
     font-weight: 700;
-    color: #b49c73!important;
+    color: #b49c73 !important;
     letter-spacing: 3px !important;
 }
-.mt-4{
+
+.mt-4 {
     font-size: 20px;
-    color: rgba(0, 0, 0, 0.5);  
+    color: rgba(0, 0, 0, 0.5);
     width: 80%;
 }
-.intro-desk{
+
+.intro-desk {
     color: #b49c73;
     border-bottom: 1px solid #b49c73;
 }
 
-.btn-secondary{
+.btn-secondary {
     padding: 18px 27px !important;
     border-radius: 30px !important;
-    background-color:#b49c73!important;
-    border-color: #b49c73!important;
-    font-weight: 500!important;
+    background-color: #b49c73 !important;
+    border-color: #b49c73 !important;
+    font-weight: 500 !important;
     letter-spacing: 0.5px !important;
     /* color: black !important; */
     transition: all 0.4s ease;
-   
+
 }
-.btn-secondary:hover{
-   
-    background-color:#212529!important;
+
+.btn-secondary:hover {
+
+    background-color: #212529 !important;
 }
 
 /* PRACTICE SECTION */
-.main-practice{
+.main-practice {
     /* display: flex; */
     width: 100%;
-    height: auto;
+    height:auto;
     background-color: #212529;
     padding-top: 4rem;
     color: #fff;
     /* padding-left: 3rem; */
 }
-.practice-heading h1{
+
+.practice-heading h1 {
     font-size: 45px;
     font-weight: normal;
 }
-#practice-design{
+
+#practice-design {
     color: #b49c73;
     font-weight: 700;
     letter-spacing: 1px;
 }
-.practice-text{
-    color:#b2b2b8;
+
+.practice-text {
+    color: #b2b2b8;
     line-height: 2rem;
     font-weight: 400;
-    margin-left:2% ;
+    margin-left: 2%;
     /* margin-bottom: 1rem; */
 }
-.pr-bt{
+
+.pr-bt {
     padding: 10px 20px !important;
 }
-.icon{
+
+.icon {
     transition: all 0.4s ease;
 }
-.icon:hover{
+
+.icon:hover {
     cursor: pointer;
     opacity: 0.5;
 }
-.icon-wrapper{
+
+.icon-wrapper {
     width: 70px;
     height: 70px;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     /* margin-right: 3px; */
 }
+
 .icon img {
     margin: 23px;
     width: 1.6rem;
 }
+
 .icon-head {
     color: #b49c73;
     position: relative;
     bottom: 15px;
 }
-.icon-head h4{
+
+.icon-head h4 {
     font-size: 16px;
     letter-spacing: 1px;
     font-weight: 100;
 }
-.d-block{
+
+.d-block {
     color: #b2b2b8;
     font-size: 15px;
 }
-.cases h1{
+
+.cases h1 {
     font-size: 50px;
     font-weight: 200;
     letter-spacing: 2px;
 
 }
-.cases .year{
+
+.cases .year {
     color: #b49c73;
     letter-spacing: 2px;
     font-weight: 600;
 }
-.awards-sec h1{
+
+.awards-sec h1 {
     font-size: 60px;
 }
-.awards-sec .ninty{
+
+.awards-sec .ninty {
     color: #b49c73;
 }
-.awards-sec .strong{
+
+.awards-sec .strong {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
 }
-.awards-sec p{
+
+.awards-sec p {
     color: #b2b2b8;
 }
-.main-happy{
+
+.main-happy {
     width: 100%;
     height: auto;
     padding-top: 3rem;
-    background-color:#37373f;
-    
+    background-color: #37373f;
+
 }
-.happy-heading h1{
+
+.happy-heading h1 {
     font-size: 50px;
     letter-spacing: 2px;
 }
 
-.card-text{
-    color:#212529;
+.card-text {
+    color: #212529;
     margin-left: 6px;
 }
-.card-title img{
+
+.card-title img {
     width: 20%;
     border-radius: 100%;
 }
+
 .circle {
     margin: 12px;
     width: 25%;
@@ -189,28 +223,85 @@ ul li{
     height: 63px;
     background-color: #b49c73;
 }
-.circle img{
+
+.circle img {
     position: absolute;
     margin-top: 1.2rem;
     left: 2rem;
 
 }
-.card-head{
-    color:#b49c73;
+
+.card-head {
+    color: #b49c73;
     font-size: 18px;
     font-weight: 500;
     margin-top: -15px;
 }
-.learn{
+
+.learn {
     color: black;
     font-size: 17px;
     font-weight: 400;
     transition: all 0.4s ease;
     cursor: pointer;
 }
-.learn:hover{
+
+.learn:hover {
     color: #b49c73;
 }
-.learn i{
+
+.learn i {
     color: #212529;
+}
+.law-bg{
+    width: 100%;
+    background: url(../img/hero_bg.jpg) ;
+    background-size: cover;
+    height: 300px;
+    border-radius: 8px;
+}
+.get-start{
+    color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 30rem; */
+    
+}
+.heading h1{
+    position: relative;
+    font-weight: 600;
+    top: 8rem;
+    font-size: 27px;
+}
+.call-bt{
+    position: absolute;
+    right: 48%;
+    /* top: 3%; */
+    margin-top: 9rem;
+}
+.site-footer{
+    /* margin-top: 3rem; */
+    background-color: #37373f;
+    width: 100%;
+    /* background-color: #37373f; */
+    height: 400px;
+    /* border: 2px solid black; */
+}
+.widget h3{
+font-size: 20px;
+font-weight: 200;
+margin-left: 3px;
+}
+.widget ul li{
+    /* margin-right: 30px; */
+    margin-top: 10px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    color: #b49c73;
+}
+.widget ul li:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
 }

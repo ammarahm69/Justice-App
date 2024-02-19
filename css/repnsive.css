@@ -38,8 +38,12 @@
         font-size: 33px;
     }
     .happy{
-        font-size: 40px;
+        font-size: 37px;
     }
+    .heading h1{
+        font-size: 20px;
+    }
+   
  @media screen and (min-width:280px) and (max-width:768px) {
     .main{
         display: flex;
