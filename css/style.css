@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fredik';
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 @font-face {
@@ -285,7 +285,7 @@ ul li {
     background-color: #37373f;
     width: 100%;
     /* background-color: #37373f; */
-    height: 400px;
+    height: auto;
     /* border: 2px solid black; */
 }
 .widget h3{
@@ -304,4 +304,23 @@ margin-left: 3px;
     color: white;
     cursor: pointer;
     text-decoration: underline;
+}
+.fs{
+    font-size: 14px;
+    font-weight: 500;
+    color: #b2b2b8;
+}
+
+.social li a i {
+    position: relative;
+    margin: 12px;
+    /* right: 1px; */
+    /* top: -2px; */
+    font-size: 29px;
+    transition: all 0.3s ease;
+    color: white;
+}
+.social li a i:hover{
+    cursor: pointer;
+    color: #b49c73;
 }
